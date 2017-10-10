@@ -1,4 +1,4 @@
-##Book Store Code Challenge
+## Book Store Code Challenge
 
 **The bookstore.py module was created in response to the following code challenge prompt:**
 
@@ -13,8 +13,9 @@ Let’s say you have 300 dollars in your budget. How many books can you buy duri
 Expected answer : 8 books, $9 remaining
 
 
-##Usage
-###CLI
+## Usage
+
+### CLI
 	$ ./bookstore.py -h
 	usage: bookstore.py [-h] initial_price discount floor_price budget
 
@@ -35,10 +36,10 @@ Example:
 	$ ./bookstore.py 50 4 25 300
 	8 books purchased with $9.00 remaining
 	
-###Import
+### Import
 	import bookstore
 	bookstore.num_books_in_budget(50, 4, 25, 300)
 	# return: (8, 9.0)
 	
-###Version
+### Version
 Tested in python 2.7 and 3.6
